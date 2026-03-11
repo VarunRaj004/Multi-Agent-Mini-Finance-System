@@ -3,5 +3,5 @@ class BaseAgent:
         self.name = name
         self.llm_service = llm_service
 
-    def act(self,user_input,context):
+    def run(self,user_input,context):
         raise NotImplementedError
